@@ -1,0 +1,44 @@
+body{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    font-family:  sans-serif;
+    color: rgb(46, 46, 46);
+    width: 300px;
+    padding: 20px 20%;
+    background-color: aquamarine;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.container input[type="button"]{
+    background-color: rgb(238, 69, 69);
+    border: none;
+    width: 300px;
+    padding: 2%;
+    cursor: pointer;
+    color: cornsilk;
+}
+
+.container input[type="button"]:hover{
+    background-color: rgb(255, 44, 44);
+    font-weight: 500;
+    color: cornsilk;
+}
+
+.container p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.container input[type="text"]{
+    padding: 1px 5px;
+}
+
+.container pre{
+    color: crimson;
+    font-weight: bold;
+}
